@@ -1,0 +1,150 @@
+body{
+	background-color: #b07c30;
+	color:#222222;
+	font-family: serif;	
+}
+header{
+	height:350px;
+	background-size:75%;
+	padding-bottom: 2em;
+	width:80%;
+	min-width:800px;
+	max-width:960px;
+	margin-right: auto;
+	margin-left: auto;
+	
+
+
+}
+h1{
+	line-height: 200%
+	text-indent: 1em;
+	
+	
+	padding-left: 2em;
+	height:72px;
+	margin-bottom:0;
+
+}
+nav{
+	text-align:center;
+	font-weight: bold;
+	font-size: 1.5em;
+	padding-top: 10px;
+
+	
+}
+.border{
+	border-width:75%;
+	margin-right: auto;
+	margin-left:auto;
+	border-style: solid;
+	border-color:#b07c30;
+}
+h2{
+	color:#222222;
+	font-weight:bold;
+}
+dt{
+color: #222222;
+font-weight:bold;
+border-bottom-style: solid;
+border-bottom-color:#222222;
+
+}
+dd{
+	color:#222222;
+	
+}
+.curbside{
+	color: #222222;
+	font-size:1.2em;
+}
+footer{
+	font-size: 1em;
+	text-align: center;
+	padding: 1em;
+	margin-left: 170px;
+	border-top-color:#b07c30;
+	border-top-style:solid;
+	
+
+}
+#wrapper{
+	background-color: #ffffff;
+	min-width: 700px;
+	max-width: 1024px;
+	box-shadow: 5px 5px 5px #000000;
+	margin-left:auto;
+	margin-right:auto;
+	width:80%;
+}
+h3{color:#000033;}
+main{
+	display: block;
+	background:#ffffff;
+	
+}
+#homehero{
+	height:300px;
+	background-image: url(images/coast.jpg);
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	margin-left: 170px;
+}
+nav a{
+	text-decoration:none;
+}
+nav ul{
+	list-style-type:none;
+	
+}	
+nav a:link { color: #0000ee; }
+nav a:visited { color: #222222; }
+nav a:hover { color: #b07c30; } 
+
+* {
+	box-sizing: border-box;
+}
+
+header,nav,main,footer{display:block;}
+
+table{
+	margin:auto;
+	width: 5%;
+	
+}
+
+#text{
+	text-align: left;
+}
+
+form{
+	float: right;
+}
+label{
+	float: left;
+	width:8em;
+	padding-left: 1em;
+}
+input,textarea { display:block;
+	margin-bottom: 1em;
+ 	}
+ .mySubmit{
+ 	margin-right: 90em;
+ }
+ #column1{
+ 	float:left;
+ 	margin-right:10px;
+ 	border: 3px solid #ffffff;
+ }
+ #column2{
+ 	float:right;
+ 	margin:0 0 5px 5px;
+ 	border: 1px solid #ffffff;
+ }
+ #reviews{
+ 	box-shadow: 5px 5px 5px #b07c30;
+ 	border-style:outset #b07c30;
+ 	background-color: #cccccc;
+ }
